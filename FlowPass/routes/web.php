@@ -8,3 +8,7 @@ Route::get('/', function () {
 });
 
 route::get('/test', [TestController::class, 'test'])->name('test');
+
+use App\Http\Controllers\SegundaPaginaController;
+
+Route::get('/segunda-pagina', [SegundaPaginaController::class, 'exibirSegundaPagina'])->name('segunda.pagina');
