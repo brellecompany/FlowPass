@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function test(){ 
-        return view ('test');
+    public function exibirPaginicial(){ 
+        return view ('welcome');
     }
 }

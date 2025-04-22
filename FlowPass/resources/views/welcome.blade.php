@@ -12,15 +12,14 @@
             <div id="branding">
                 <h1>FLOWPASS</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#"><strong>FALE COM ESPECIALISTAS</strong></a></li>
-                    <li><a href="#"><strong>BENEFÍCIOS</strong></a></li>
-                    <li><a href="#"><strong>CADASTRE-SE</strong></a></li>
-                    <li><a href="#"><strong>SOBRE NÓS</strong></a></li>
-                </ul>
+                <nav>
+                <a href="{{ route('segunda.pagina') }}" class="rotas"><strong>FALE COM UM ESPECIALISTA  </strong></a>
+                <a href="#"><strong>BENEFÍCIOS  </strong></a></li>
+                <a href="#"><strong>CADASTRE-SE  </strong></a></li>
+                <a href="{{ route('qr.code') }}" class="rotas"><strong>REGISTRO DE PONTO  </strong></a>
             </nav>
-        </div>
+            </div>
+        
     </header>
 
     <section id="showcase">

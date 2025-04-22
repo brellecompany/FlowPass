@@ -67,6 +67,7 @@ header #branding h1 {
 header nav {
     margin-top: 0;
     margin-left: auto; 
+    word-spacing: 2px;
 }
 
 #showcase {
@@ -243,4 +244,61 @@ display: block;
 
 button:hover {
   background-color:  #ac0b0b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+
+  input:focus {
+    border-color: #f74205;
+    outline: none;
+  }
+
+  .ponto-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+  }
+
+  .pessoa {
+    background: #ffffff;
+    border-left: 6px solid #28a745;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+
+  .pessoa strong {
+    color: #333;
+  }
+
+  .pessoa span {
+    display: block;
+    color: #555;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+.pontada {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 100px;
+    padding: 60px;
 }

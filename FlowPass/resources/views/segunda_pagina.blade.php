@@ -12,15 +12,13 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>FLOWPASS</h1>
+              <a href="{{ route('welcome') }}" class="nav"><h1>FLOWPASS</h1></a>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#"><strong>BENEFÍCIOS</strong></a></li>
-                    <li><a href="#"><strong>CADASTRE-SE</strong></a></li>
-                    <li><a href="#"><strong>SOBRE NÓS</strong></a></li>
-                </ul>
-            </nav>
+              <a href="#"><strong>BENEFÍCIOS  </strong></a></li>
+              <a href="#"><strong>CADASTRE-SE  </strong></a></li>
+              <a href="{{ route('qr.code') }}" class="rotas"><strong>REGISTRO DE PONTO  </strong></a>
+          </nav>
         </div>
     </header>
   
@@ -47,7 +45,7 @@
       </div>
     </div>
 
-    <form action="#" method="post">
+    <form class="pontada" action="#" method="post">
       <h2>Envie uma mensagem</h2>
 
       <label for="nome">Seu nome</label>
